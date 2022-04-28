@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+
+
+
+td
+{
+    text-align:left;
+}
+	table
+{
+	width:170%;
+}
+table, td, th
+{
+	border:1px solid rgba(109, 199, 232, 0.634);
+	
+}
+th
+{
+	background-color:rgb(14, 218, 232);
+	color:white;
+	height:50px;	
+}

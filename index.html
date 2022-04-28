@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+<link rel="stylesheet" type="text/css" href="7.1.css"/>
+
+<body>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="Course details.html">Course details</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+  </ul>
+
+  <div class="showTime"></div>
+
+<h2 class="w3-center">Welcome to the course training service!</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="p1.png" style="width:100%">
+  <img class="mySlides" src="p2.png" style="width:100%">
+  <img class="mySlides" src="p3.png" style="width:100%">
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<div align="center">
+  <form name="myform" method="post" action="mailto:username@hotmail.com" onsubmit="return validateform()" >  
+    UserName: <input type="text" name="name1"><br/>  
+    ChineseName: <input type="text" name="name2"><br/>  
+    EnglishName: <input type="text" name="name3"><br/>  
+    Password: <input type="password" name="password"><br/> 
+    <input type="submit" value="register">  
+    </form>  
+</div>
+<br>
+<div align="center">
+<p>Enter your relevant login information to visit our course website!</p></div>
+
+<script src="7.2.js"></script>
+<div class="footer" style="background-color:#149fe0;clear:both;text-align:center;">
+  designer:Demorky</div>      
+</body>
+</html>
